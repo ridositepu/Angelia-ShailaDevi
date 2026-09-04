@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Happy Girlfriend Day - a little website made with love">
+  <title>Happy Girlfriend Day 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="hearts" id="hearts"></div>
+
+  <header class="hero">
+    <div class="sparkle s1">✦</div><div class="sparkle s2">✧</div>
+    <div class="hero-card">
+      <p class="eyebrow">A LITTLE WEBSITE FOR YOU</p>
+      <h1>Happy<br><span>Girlfriend Day</span> 💗</h1>
+      <p class="subtitle">Untuk seseorang yang selalu berhasil membuat hari-hariku terasa lebih indah.</p>
+      <button class="love-btn" id="openLetter">💌 Buka Suratku</button>
+      <button class="scroll-btn" id="scrollDown">↓ lihat lebih banyak</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro reveal">
+      <p class="eyebrow">JUST FOR YOU</p>
+      <h2>Thank you for being <em>you.</em></h2>
+      <p>Website kecil ini mungkin sederhana, tapi dibuat dengan satu hal yang besar: rasa sayang dan terima kasih karena sudah hadir di hidupku.</p>
+    </section>
+
+    <section class="gallery reveal" id="gallery">
+      <div class="section-head">
+        <div><p class="eyebrow">OUR LITTLE GALLERY</p><h2>6 little memories 📸</h2></div>
+        <span>scroll ↓</span>
+      </div>
+      <div class="photo-grid">
+        <figure class="photo-card"><img src="assets/photo1.jpg" alt="Kenangan 1"><figcaption>our moment #01</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photo2.jpg" alt="Kenangan 2"><figcaption>our moment #02</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photo3.jpg" alt="Kenangan 3"><figcaption>our moment #03</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photo4.jpg" alt="Kenangan 4"><figcaption>our moment #04</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photo5.jpg" alt="Kenangan 5"><figcaption>our moment #05</figcaption></figure>
+        <figure class="photo-card"><img src="assets/photo6.jpg" alt="Kenangan 6"><figcaption>our moment #06</figcaption></figure>
+      </div>
+      <p class="hint">6 foto spesialmu sudah dimasukkan ke dalam website ini ♡</p>
+    </section>
+
+    <section class="letter reveal">
+      <div class="letter-paper">
+        <div class="stamp">WITH<br>LOVE</div>
+        <p class="eyebrow">A LETTER FOR YOU</p>
+        <h2>Untuk kamu,<br>yang selalu spesial. 💌</h2>
+        <div class="letter-text">
+          <p>Hai sayang,</p>
+          <p>Aku cuma mau bilang terima kasih. Terima kasih karena sudah hadir, menemani hari-hariku, dan menjadi seseorang yang bisa membuatku tersenyum hanya dengan hal-hal kecil.</p>
+          <p>Aku mungkin nggak selalu pandai mengungkapkan semuanya, tapi aku harap kamu tahu kalau kehadiranmu berarti banyak buatku. Aku suka setiap cerita, tawa, dan momen sederhana yang kita lewati bersama.</p>
+          <p>Semoga kita selalu bisa saling memahami, saling menjaga, dan terus menciptakan banyak kenangan baik. Kalau suatu hari semuanya terasa berat, semoga kita tetap memilih untuk bicara dan saling mendengarkan.</p>
+          <p>Happy Girlfriend Day, sayang. Semoga kamu selalu bahagia, sehat, dan dikelilingi hal-hal baik. 🤍</p>
+          <p class="signature">— seseorang yang beruntung bisa mengenalmu ♡</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons reveal">
+      <p class="eyebrow">A FEW THINGS I LOVE</p>
+      <h2>Small things, big meaning.</h2>
+      <div class="reason-grid">
+        <div><span>01</span><h3>Your smile</h3><p>Senyummu selalu punya cara sendiri untuk bikin suasana jadi lebih hangat.</p></div>
+        <div><span>02</span><h3>Your kindness</h3><p>Kebaikan kecil yang kamu lakukan sering kali berarti lebih dari yang kamu sadari.</p></div>
+        <div><span>03</span><h3>Our moments</h3><p>Hal-hal sederhana terasa spesial ketika dijalani bersama kamu.</p></div>
+      </div>
+    </section>
+
+    <section class="final reveal">
+      <div class="big-heart" id="bigHeart">♥</div>
+      <p class="eyebrow">ONE LAST THING</p>
+      <h2>I'm glad it's <span>you.</span></h2>
+      <p>Happy Girlfriend Day 💗<br>Let's keep making beautiful little memories.</p>
+      <button class="surprise-btn" id="surprise">✨ Tap for a surprise</button>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" id="closeModal">×</button>
+      <div class="mini-heart">♥</div>
+      <p class="eyebrow">A LITTLE SURPRISE</p>
+      <h2>You are one of my favorite parts of life. 💗</h2>
+      <p>Jangan lupa senyum hari ini. Ada seseorang yang selalu berharap kamu baik-baik saja.</p>
+      <button class="love-btn" id="moreHearts">💞 More love</button>
+    </div>
+  </div>
+
+  <footer>made with ♡ • Happy Girlfriend Day</footer>
+  <script src="script.js"></script>
+</body>
+</html>
